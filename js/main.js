@@ -5,7 +5,7 @@ const navLinks = document.querySelectorAll(".main-nav a");
 const contactForm = document.querySelector("#contact-form");
 const formMessage = document.querySelector(".form-message");
 
-/* MOBILE NAVIGATION */
+
 
 if (menuToggle && mainNav) {
   menuToggle.addEventListener("click", () => {
@@ -25,7 +25,7 @@ if (menuToggle && mainNav) {
   });
 }
 
-/* CONTACT FORM */
+
 
 if (contactForm) {
   contactForm.addEventListener("submit", (event) => {
@@ -47,7 +47,7 @@ if (contactForm) {
   });
 }
 
-/* HEADER SCROLL STATE */
+
 
 const header = document.querySelector(".site-header");
 
